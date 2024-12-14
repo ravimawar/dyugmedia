@@ -599,3 +599,9 @@ h6,
 .footer .footer-menu a:hover {
     color: var(--secondary);
 }
+/* new css */
+
+.navbar-light .navbar-nav .nav-link{
+    color: black !important; /* Default text color */
+    transition: color 0.3s ease; /* Smooth transition for hover effect */
+}
