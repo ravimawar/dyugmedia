@@ -605,3 +605,13 @@ h6,
     color: black !important; /* Default text color */
     transition: color 0.3s ease; /* Smooth transition for hover effect */
 }
+
+.whatsapp-button {
+    position: fixed; /* Keeps the button fixed on the screen */
+    bottom: 20px;    /* Distance from the bottom of the screen */
+    right: 20px;     /* Distance from the right of the screen */
+    z-index: 1000;   /* Ensures it stays on top of other elements */
+    display: flex;   /* Aligns the content inside the button */
+    align-items: center;
+    justify-content: center;
+}
