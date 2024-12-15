@@ -607,11 +607,12 @@ h6,
 }
 
 .whatsapp-button {
-    position: fixed; /* Keeps the button fixed on the screen */
-    bottom: 20px;    /* Distance from the bottom of the screen */
-    right: 20px;     /* Distance from the right of the screen */
-    z-index: 1000;   /* Ensures it stays on top of other elements */
-    display: flex;   /* Aligns the content inside the button */
+    position: fixed; 
+    bottom: 20px;    
+    right: 20px;     
+    z-index: 1000;   
+    display: flex;   
     align-items: center;
     justify-content: center;
+    border: 2px solid #10110fe3;
 }
